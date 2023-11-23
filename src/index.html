@@ -102,7 +102,7 @@
             var lat = document.getElementById("latitude").value;
             var long = document.getElementById("longitude").value;
 
-            fetch(`http://localhost:80/getData?lat=${lat}&long=${long}`, {
+            fetch(`http://20.56.22.249:80/getData?lat=${lat}&long=${long}`, {
                 method: "GET",
             }).then(r => r.json()).then(r => {
                 const rBox = document.getElementById("response-box");
