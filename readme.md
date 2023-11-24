@@ -35,4 +35,4 @@ The values of the Inputs are accessed and put into the request url, then it send
 The response is turned into the `JSON` format.\
 The server response is accessed in the response JSON, and displayed in the specified html tag.
 
-- Please find the related screens shots in the submit PDF document.
+- Please find the related screens shots in the submitted PDF document.
